@@ -1,0 +1,29 @@
+name: false
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.8
+  - menuinst
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda-navigator
+  - navigator-updater
+  - jupyterlab
+  - pandas
+  - dask
+  - xlwt
+  - seaborn
+  - xlrd
+  - plotly
+  - ipywidgets=7.5
+  - plotly-geo
+  - python-kaleido
+  - pyarrow
+  - feedparser
+  - pip
+  - pip:
+    - jupyterlab_hdf
